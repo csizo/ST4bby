@@ -1,0 +1,25 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<package xmlns="http://schemas.microsoft.com/packaging/2011/08/nuspec.xsd">
+    <metadata>
+        <id>ST4bby</id>
+        <version>1.0.0</version>
+        <title>A Standalone T4 POCO Generator</title>
+        <authors>zcsizmazia</authors>
+        <licenseUrl>https://github.com/csizo/ST4bby/blob/master/LICENSE</licenseUrl>
+        <projectUrl>https://github.com/csizo/ST4bby</projectUrl>
+        <requireLicenseAcceptance>false</requireLicenseAcceptance>
+        <description>ST4bby is a T4 template that will generate POCO's (Plain Old CLR Objects) from your database tables and columns. It doesn't rely on any particular ORM but can be used in conjunction with them, including but not limited to:
+
+Entity Framework
+Dapper
+Massive
+Anything else that uses POCO's relating directly to your database schema.</description>
+        <summary />
+        <releaseNotes>Based on jbubriski ST4bby work.
+Enchanted PrimaryKey/Identity handling</releaseNotes>
+    </metadata>
+    <files>
+        <file src="src\ST4bby.Config.ttinclude" target="content\ST4bby.Config.ttinclude" />
+        <file src="src\ST4bby.tt" target="content\ST4bby.tt" />
+    </files>
+</package>
