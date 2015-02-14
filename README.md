@@ -15,3 +15,5 @@ Checkout the [ST4bby Github page](http://jbubriski.github.com/ST4bby/) for:
  - Contribution directions
  - Contact Info
  - Cool ASCII art
+
+Get the [ST4bby](https://www.nuget.org/packages/ST4bby) nuget package now!
